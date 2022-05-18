@@ -18,6 +18,7 @@
 
 .logo {
     align-self: flex-start;
+    font-weight: bold;
     
 }
 
@@ -40,7 +41,7 @@ li {
     height: 40px;
     color: white;
 }
-span{
+ span {
     color: #EC4067;
 }
 
@@ -90,13 +91,158 @@ span{
     background-color: white;
     margin-top: 20px;
   }
-
-  img {
+ .sectionimg > img {
       align-self: flex-end;
       width: 450px;
       padding: 30px;
   }
 
+/* stories*/
+ samp{
+    background-color: rgb(233, 232, 232);
+    width: 2px;
+    font-size: xxx-large;
+    margin-left:  30px;
+}
+/* orientation day */
+
+.sectiontwo{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.day{
+    align-self: flex-end;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    
+    
+}
+
+.oneimg > img{
+    align-self: flex-start;
+    width: 450px;
+    margin-left: 30px;
+    
+}
+.btntwo{
+    background-color: #EC4067;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+/* board section */
 
 
+.board{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+}
 
+.boardtext{
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+button{
+    background-color: #EC4067;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+.boardimg > img{
+    align-self: flex-end;
+      width: 450px;
+      margin-right: 70px;
+      margin-top: 20px;
+}
+/* graduation section */
+.graduation{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+.grandtext{   
+     align-self: flex-end;
+    margin-right: 30px;
+    margin-bottom: 50px;
+
+}
+ img {
+    align-self: flex-start;
+    padding-left: 30px;
+}
+/* mentors section */
+/* rose */
+.mentors{
+    
+    background-color: white;
+    display:flexbox;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+   
+     margin-left: 30px;
+
+}
+.techphoto > img {
+    padding: 0px;
+}
+.tech p{
+    font-size: 20px;
+}
+/* albert */
+.mentors{ 
+     margin-left: 30px;
+     align-self: flex-start;
+
+}
+.techphoto > img {
+    padding: 0px;
+}
+.tech p{
+    font-size: 20px;
+}
+.mentor4
+{-ms-flex-order: initial;}
+/* footer */
+footer{
+    background-color:lightgray;
+    height: 200px;
+}
+.turus {
+    text-align: center;
+    margin-top: 50px;
+}
+ /* bike */
+
+.bike{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+    font-size: medium;
+}
+
+.project{
+    align-self: flex-start;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.projectphoto > img{
+    align-self: flex-end;
+      width: 450px;
+      margin-right: 70px;
+      margin-top: 20px;}
+      /* addition */
+      .sure {
+          align-self: center;
+          margin-top: 70px;
+      }
