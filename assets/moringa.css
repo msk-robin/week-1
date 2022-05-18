@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    font-size: 30px;
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    padding: 0px;
+    
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: x-large;
+    margin: 30px;
+    
+}
+
+.logo {
+    align-self: flex-start;
+    font-weight: bold;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;    
+}
+
+a{
+    text-decoration: none;
+}
+li {
+    padding-left: 20px;
+}
+.btn1{
+    width: 100px;
+    background-color: #EC4067;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+}
+ span {
+    color: #EC4067;
+}
+
+
+/* section 2 */
+.section{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.sectionone{
+    align-items: flex-start;
+}
+.sectionone  > h3 {
+    padding: 30px;
+    
+    }
+.sectionone > h1 {
+    color: #EC4067;
+    padding-left: 30px;
+   }
+
+.sectionone > p {
+    padding : 30px;
+    color: grey;
+}
+
+   .enroll {
+  
+    background-color: #EC4067;
+    border: none;
+    width: 180px;
+    height: 130;
+    margin-left: 30px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+   }
+   .explore {
+    border-color: #EC4067;
+    width: 180px;
+    height: 130;
+    margin-left: 30px;
+    border-radius: 5px;
+    color: #EC4067;
+    background-color: white;
+    margin-top: 20px;
+  }
+
+  img {
+      align-self: flex-end;
+      width: 450px;
+      padding: 30px;
+  }
+
+/* stories*/
+ samp{
+    background-color: rgb(233, 232, 232);
+    width: 2px;
+    font-size: xxx-large;
+    margin-left:  30px;
+}
+/* orientation day */
